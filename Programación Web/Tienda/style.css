@@ -2,11 +2,16 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    justify-content: center;
-    background-color: #2c2f33;
+    background-color: #2c2f33; /* Color de fondo de respaldo */
+    background-image: url('background.png'); /* Ruta de la imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Color de texto predeterminado */
 }
-p{
+
+p {
     justify-content: space-around;
+    color: #fff;
 }
 
 header {
@@ -26,7 +31,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: #333;
+   color: #fff;
     padding: 10px;
     margin-right: 10px;
     border-radius: 5px;
@@ -48,27 +53,115 @@ nav a:hover {
     height: auto;
     margin-right: 10px;
 }
-#logo{
+
+#logo {
     width: 200px;
     height: 200px;
-    background:url("logoIndex.png");
+    background: url("logoIndex.png");
     background-repeat: no-repeat;
     margin-left: 42.5%;
 }
-#centrar{
-    text-align: center;
 
+#centrar {
+    text-align: center;
 }
 
-#blanco{
+#blanco {
     color: white;
 }
 
-a{ font-size: 14px;
+a {
+    font-size: 14px;
     text-decoration: none;
     margin: 10px 20px;
     padding: 5px;
     display: inline-block;
     background-color: gray;
-    color: white;}
+    color: white;
+}
 
+/* Estilos para ControlDeAdmin.html */
+
+.container-fluid {
+    padding: 20px;
+}
+
+.text-danger {
+    color: #fff;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-md-end {
+    text-align: right;
+}
+
+.text-md-start {
+    text-align: left;
+}
+
+.row {
+    margin-bottom: 10px;
+}
+
+.col-3 {
+    width: 25%;
+    padding: 5px;
+}
+
+.col-9 {
+    width: 75%;
+    padding: 5px;
+}
+
+.btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+}
+
+.bg-dark {
+    background-color: #343a40 !important;
+    color: white;
+}
+
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+.bg-image {
+    background-size: cover;
+    background-position: center;
+}
+
+.text-white {
+    color: white;
+}
