@@ -87,11 +87,12 @@ a {
 }
 
 .text-danger {
-    color: #fff;
+    color: #007bff;
 }
 
 .text-center {
     text-align: center;
+    color:#007bff
 }
 
 .text-md-end {
